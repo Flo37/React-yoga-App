@@ -1,0 +1,57 @@
+a{
+    color: rgb(196, 129, 43);
+    text-decoration: none;
+    h1{
+        transition: .2s;
+        &:hover{
+            border-bottom: 2px solid red;
+            width: fit-content;
+        }
+    }
+}
+.yoga_pic{
+    background: rgb(19, 58, 19);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .card{
+        position: relative;
+        text-align: center;
+        background: rgba(192, 154, 29, 0.144);
+        border: 1px solid black;
+        margin: 20px;
+        padding: 1rem;
+        width: auto;
+        height: 30vh;
+        li{
+            list-style: none;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            
+        }
+        img{
+            width: 200px;
+        }
+        .arrow1{
+            font-size: 1.8rem;
+            position: absolute;
+            left:30%;
+            bottom: 10px;
+            background: rgba(127, 190, 209, 0.308);
+            padding: 0.2rem;
+            border-radius: 10px;
+        }
+        .arrow2{
+            font-size: 1.8rem;
+            position: absolute;
+            right:30%;
+            bottom: 10px;
+            background: rgba(127, 190, 209, 0.308);
+            border-radius: 10px;
+            padding: 0.2rem;
+        }
+    }
+        
+}
