@@ -3,10 +3,8 @@ a{
     text-decoration: none;
     h1{
         transition: .2s;
-        &:hover{
-            border-bottom: 2px solid red;
-            width: fit-content;
-        }
+        text-align: center;
+      
     }
 }
 .yoga_pic{

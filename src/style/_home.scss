@@ -1,0 +1,23 @@
+.home{
+    width: 100%;
+    ul{
+        margin: 0 auto;
+        width: 80%;
+        background: darkgray;
+        box-shadow: 1px 2px gray;
+        h1{
+            
+            position: absolute;
+            text-align: center;
+            color:red;
+        }
+        img{
+            position: relative;
+           width: 80%;
+           height: 80%;
+            object-fit: cover;
+            padding: 2rem;
+            border-radius: 50%;
+        }
+    }
+}
